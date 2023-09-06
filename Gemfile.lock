@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.4)
+    nio4r (2.5.9)
+    puma (6.3.1)
+      nio4r (~> 2.0)
+    rack (3.0.8)
+    sequel (5.72.0)
+      bigdecimal
+    slim (5.1.1)
+      temple (~> 0.10.0)
+      tilt (>= 2.1.0)
+    sqlite3 (1.6.4-x86_64-linux)
+    temple (0.10.2)
+    tilt (2.2.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  puma
+  rack (~> 3.0, >= 3.0.8)
+  sequel
+  slim
+  sqlite3
+
+RUBY VERSION
+   ruby 3.0.2p107
+
+BUNDLED WITH
+   2.3.5
